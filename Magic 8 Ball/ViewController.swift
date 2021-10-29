@@ -15,7 +15,12 @@ class ViewController: UIViewController {
     let ballArray = [#imageLiteral(resourceName: "ball1.png"),#imageLiteral(resourceName: "ball2.png"),#imageLiteral(resourceName: "ball3.png"),#imageLiteral(resourceName: "ball4.png"),#imageLiteral(resourceName: "ball5.png")]
 
     @IBAction func askButtonPressed(_ sender: UIButton) {
-        eightBallImage.image = ballArray.randomElement()
+        var eightBallImageSelect = ballArray.randomElement()
+
+        while eightBallImage.image == eightBallImageSelect {
+            eightBallImageSelect = ballArray.randomElement()
+        }
+        eightBallImage.image = eightBallImageSelect
     }
     
 
