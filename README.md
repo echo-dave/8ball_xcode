@@ -1,3 +1,8 @@
+![Magic Eight Ball](Documentation/eightBall.jpg)
+![Magic Eight Ball 2](Documentation/eightBall2.jpg)
+# A basic Magic 8 Ball excercise
+I never could force the status bar to be light / white via code or by target config options.
+
 ![App Brewery Banner](Documentation/AppBreweryBanner.png)
 
 # Magic 8 Ball
